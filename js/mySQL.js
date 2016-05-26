@@ -25,7 +25,7 @@ $(function(){
             "value_type integer," +
             "value      integer," +                         /*属性*/
             "degree     integer default ( 1 )," +       /*等级*/
-            " price     integer not null," +
+            "price     integer not null," +
             "img        text    not null," +
             "img2       text not null);");
         var equipment_table="insert into equipment(name, type, value_type, value, price, img,img2)values(?, ?, ?, ?, ?, ?,?)";

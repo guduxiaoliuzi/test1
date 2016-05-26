@@ -36,9 +36,9 @@ function Main(){
     $more.click(function(){
         var tc=new TanChuang(that.$MainBody,"正在努力建设中。。。。。","img/001.gif");
     });
- /*   $shop.click(function(){
+    $shop.click(function(){
         director.runScene(new Store());
-    });*/
+    });
     $one.appendTo(this.$MainBody);      /*单人游戏*/
     $more.appendTo(this.$MainBody);     /*多人游戏*/
     $shop.appendTo(this.$MainBody);     /*商店*/
