@@ -2,141 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c60d0a2-de6c-4585-98ea-e6d1d90b7242" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/001.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/002.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/003.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BikerBody01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/BikerExtraParts1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/L-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/L-car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/LGbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/backenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bt-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/buy-bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/buy-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/buy-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c1s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c2s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c3s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c4s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c5s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c6s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c7s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/c8s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cangkutxt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carport.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cha03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cha04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cha05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/chongzhi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/codetxt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/coins.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dongji_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engine07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/exit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gkbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/guankbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/item6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ljt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/login-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/loginbtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/long-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m1s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m2s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m3s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m4s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mallbtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/malltxt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/match07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/model-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/morebtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/moto01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/moto02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/moto03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/moto04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/moto05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/new-register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nextstage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/onebtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ppb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/preview-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pwdtxt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qiang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/restart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/return.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/s_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shop-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/showtxt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/small-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/submit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w1s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w2s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w3s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/w4s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wheel01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wheel02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wheel03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xin01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xin02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/yulan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/z2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zucebtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/messages_zh.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/mySQL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/public.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/test1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\Motorcycle games\test1\README.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,17 +30,17 @@
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.064516">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.515625">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -181,17 +50,17 @@
         <entry file="file://$PROJECT_DIR$/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.053407">
-              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc;n#Register#0" expanded="false" />
               </folding>
@@ -203,7 +72,17 @@
         <entry file="file://$PROJECT_DIR$/js/loading.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -235,10 +114,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/mySQL.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/register.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -322,8 +202,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\Motorcycle games\test1\img" />
       <recent name="C:\Users\Administrator\Desktop\Motorcycle games\test1\js" />
+      <recent name="C:\Users\Administrator\Desktop\Motorcycle games\test1\img" />
       <recent name="C:\Users\Administrator\Desktop\Motorcycle games\test1" />
     </key>
   </component>
@@ -369,6 +249,13 @@
       <option name="number" value="Default" />
       <updated>1464230003737</updated>
     </task>
+    <task id="LOCAL-00001" summary="new motor">
+      <created>1464237534061</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464237534061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,6 +264,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25184637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -397,43 +285,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new motor" />
+    <option name="LAST_COMMIT_MESSAGE" value="new motor" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.064516">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/mySQL.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -444,11 +304,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.053407">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc;n#Register#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.515625">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
