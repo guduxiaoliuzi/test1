@@ -167,6 +167,7 @@ function Store(){
             $s_look.on("click",function(){
                 var i=$(this).parent().index();/*获得当前的位置传递*/
                 console.log(i);
+                Driver(obj[i],$preview);
             });
             /*购买产品*/
             for(var j=0;j<have.length;j++){     /*查看是否拥有产品 ，并做标记*/
@@ -242,7 +243,16 @@ function Store(){
         },10);
     });
 }
-function Driver(){
-
+function Driver(obj,$parent){
+    if(!obj.type){
+        $(".d_rider").remove();
+        var $d_rider=$("<div></div>");
+        $d_rider.css({
+            background:"url("+obj.img2+") no-repeat",top:"20px",left:"20px",
+            position:"absolute",width:"78px",height:"101px"
+        });
+        $d_rider.addClass("d_rider");
+        $d_rider.appendTo($parent);
+    }
 }
 
