@@ -51,6 +51,9 @@ function Store(){
     $recharge.css({
         bottom:"20px","background-image":"url(img/chongzhi.jpg)"
     });
+    $myCar.click(function(){
+        director.runScene(new Carport());
+    });
     $recharge.click(function(){
         var t=new TanChuang(that.$MainBody,"正在努力建设中。。。。。","img/001.gif");
     });
@@ -211,6 +214,7 @@ function Store(){
        $(".choose_btn").css({"background":"none",border:"none"});
        $(this).css({"background":"linear-gradient(#d6f9f5,#31d7c2)",border:"black solid 3px"});
         var typ=$(this).index()-2;
+        //console.log(typ);
         var select="select id,name,price,img,img_1,value,value_type,type from equipment where type=?";
         switch (typ){
             case 0:
@@ -230,8 +234,8 @@ function Store(){
             that.CreateObjects(arr);
             var pages=Math.ceil(arr.length/6);
             var page=new PageBar($shop,pages);
-            page.setTo($stores);
-            page.setPageTo(0);
+            /*page.setTo($stores);
+            page.setPageTo(0);*/
         })
     });
     $(function(){

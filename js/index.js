@@ -13,8 +13,8 @@ $(function(){
     director=new Director($("body"));
     //director.runScene(new Login());
     //director.runScene(new Loading());
-    //director.runScene(new Store());
-    director.runScene(new Carport());
+    director.runScene(new Store());
+    //director.runScene(new Carport());
     //director.runScene(new Main());
     //director.runScene(new Depot());
     //director.runScene(new Checkpoint());

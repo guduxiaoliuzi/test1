@@ -28,7 +28,7 @@ function Carport(){
     });
     var $see=$("<span></span>");
     $see.css({
-        width:"118px",height:"27px",position:"absolute",top:"15px",left:"calc(50% - 59px)",background:"url(img/xgyl.png)"
+        width:"118px",height:"27px",position:"absolute",top:"15px",left:"calc(50% - 59px)",background:"url(img/xgyl .png)"
     });
     $see.appendTo($head);           /*预览*/
     $head.appendTo($left_div);
@@ -95,7 +95,7 @@ function Carport(){
         "background-position":"center center","background-size":"cover",left:"4px",top:"3px",overflow:"hidden"
     });
     $stores.appendTo($shop);
-    $right_div.append($r_head,$exit,$man_bt,$car_bt,$wheel_bt,$tank_bt,$shop)
+    $right_div.append($r_head,$exit,$man_bt,$car_bt,$wheel_bt,$tank_bt,$shop);
 }
 
 
