@@ -27,18 +27,18 @@ $(function(){
             "degree     integer default ( 1 )," +       /*等级*/
             "price     integer not null," +
             "img        text    not null," +
-            "img2       text not null);");
-        var equipment_table="insert into equipment(name, type, value_type, value, price, img,img2)values(?, ?, ?, ?, ?, ?,?)";
-        tx.executeSql(equipment_table,["哈雷摩托",1,1,110,8000,"img/m1s.png","img/m1.png"],null,function(e,tx){alert(e.messages)});
+            "img_1      text    not null);");
+        var equipment_table="insert into equipment(name, type, value_type, value, price, img,img_1)values(?, ?, ?, ?, ?, ?,?)";
+        tx.executeSql(equipment_table,["哈雷摩托",1,1,110,8000,"img/m1s.png","img/m1.png"]);
         tx.executeSql(equipment_table,["滑板车",1,1,76,5520,"img/m2s.png","img/m2.png"]);
         tx.executeSql(equipment_table,["奔驰",1,1,86,5600,"img/m3s.png","img/m3.png"]);
         tx.executeSql(equipment_table,["宝马",1,1,100,6870,"img/m4s.png","img/m4.png"]);    /*摩托车*/
         tx.executeSql(equipment_table,["A1",2,2,10,1800,"img/w1s.png","img/w1.png"]);
         tx.executeSql(equipment_table,["A2",2,2,11,1830,"img/w2s.png","img/w2.png"]);
-        tx.executeSql(equipment_table,["A3",2,2,14,2300,"img/w3s.png","img/w3.png"]);
+        tx.executeSql(equipment_table,["A3",2,2,14,2300,"img/w4s.png","img/w4.png"]);
         tx.executeSql(equipment_table,["A4",2,2,15,4200,"img/w1s.png","img/w1.png"]);
         tx.executeSql(equipment_table,["A5",2,2,18,4830,"img/w2s.png","img/w2.png"]);
-        tx.executeSql(equipment_table,["A6",2,2,22,5300,"img/w3s.png","img/w3.png"]);       /*摩托车轮*/
+        tx.executeSql(equipment_table,["A6",2,2,22,5300,"img/w4s.png","img/w4.png"]);       /*摩托车轮*/
         tx.executeSql(equipment_table,["TSI",3,3,10,3680,"img/engine01.png","img/engine01.png"]);
         tx.executeSql(equipment_table,["TFSI",3,3,12,8888,"img/engine03.png","img/engine03.png"]);
         tx.executeSql(equipment_table,["AMG",3,3,14,2300,"img/engine04.png","img/engine04.png"]);
@@ -74,8 +74,8 @@ $(function(){
         tx.executeSql("insert into user_rider(userid,riderid) values(2,2);");
         var user_rider_table="insert into user_rider(userid,riderid) values(?,?);";
         tx.executeSql(user_rider_table,[1,1]);
-        tx.executeSql(user_rider_table,[1,2]);
-        tx.executeSql(user_rider_table,[1,3]);
+        /*tx.executeSql(user_rider_table,[1,2]);
+        tx.executeSql(user_rider_table,[1,3]);*/
         /*用户拥有的车子列表*/
         tx.executeSql("create table if not exists user_bike(" +
             "id         integer primary key autoincrement," +

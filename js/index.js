@@ -5,6 +5,7 @@ var style=document.createElement("style");
 document.head.appendChild(style);
 var sheet=style.sheet;
 sheet.insertRule("*{margin:0;padding:0}");
+sheet.insertRule("@keyframes wheel {from{ transform: rotate(0deg)}to{ transform: rotate(360deg)}}");
 
 var director;
 var User=new Users();
@@ -12,7 +13,8 @@ $(function(){
     director=new Director($("body"));
     //director.runScene(new Login());
     //director.runScene(new Loading());
-    director.runScene(new Store());
+    //director.runScene(new Store());
+    director.runScene(new Carport());
     //director.runScene(new Main());
     //director.runScene(new Depot());
     //director.runScene(new Checkpoint());

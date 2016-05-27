@@ -103,7 +103,7 @@ function Store(){
     });
     $stores.appendTo($shop);
     $right_div.append($r_head,$exit,$man_bt,$car_bt,$wheel_bt,$tank_bt,$shop);
-    console.log($shop.css);
+    //console.log($shop.css);
     var coins= 0,have=new Array;
     function getUser(){
         db.transaction(function(tx){
@@ -166,7 +166,6 @@ function Store(){
             /*预览效果*/
             $s_look.on("click",function(){
                 var i=$(this).parent().index();/*获得当前的位置传递*/
-                console.log(i);
                 Driver(obj[i],$preview);
             });
             /*购买产品*/
@@ -212,7 +211,7 @@ function Store(){
        $(".choose_btn").css({"background":"none",border:"none"});
        $(this).css({"background":"linear-gradient(#d6f9f5,#31d7c2)",border:"black solid 3px"});
         var typ=$(this).index()-2;
-        var select="select id,name,price,img,type from equipment where type=?";
+        var select="select id,name,price,img,img_1,value,value_type,type from equipment where type=?";
         switch (typ){
             case 0:
                 select='select id,r_name,price,img_1,img_2 from riders';
@@ -223,7 +222,7 @@ function Store(){
             case 2:
                 data.equipData(select,[typ],"createlist");
                 break;
-            default :
+            case 3:
                 data.equipData(select,[typ],"createlist");
                 break;
         };
@@ -231,8 +230,8 @@ function Store(){
             that.CreateObjects(arr);
             var pages=Math.ceil(arr.length/6);
             var page=new PageBar($shop,pages);
-           /* page.setTo($right_div);
-            page.setPageTo(0);*/
+            page.setTo($stores);
+            page.setPageTo(0);
         })
     });
     $(function(){
@@ -248,11 +247,44 @@ function Driver(obj,$parent){
         $(".d_rider").remove();
         var $d_rider=$("<div></div>");
         $d_rider.css({
-            background:"url("+obj.img2+") no-repeat",top:"20px",left:"20px",
-            position:"absolute",width:"78px",height:"101px"
+            background:"url("+obj.img2+") no-repeat",top:"100px",left:"calc(50% - 39px)",
+            position:"absolute",width:"78px",height:"101px","z-index":5
         });
         $d_rider.addClass("d_rider");
         $d_rider.appendTo($parent);
+    }
+    else if(obj.type==1){
+        $(".d_motor").remove();
+        var $d_motor=$("<div></div>");
+        $d_motor.css({
+            background:"url("+obj.imgB+") no-repeat",top:"160px",left:"calc(50% - 64px)",
+            position:"absolute",width:"128px",height:"64px","z-index":3
+        });
+        $d_motor.addClass("d_motor");
+        $d_motor.appendTo($parent);
+    }
+    else if(obj.type==2){
+        $(".d_wheel").remove();
+        var $d_wheel_l=$("<div></div>");
+        $d_wheel_l.css({
+            background:"url("+obj.imgB+") no-repeat",top:"190px",
+            position:"absolute",width:"35px",height:"35px",animation: "wheel 3s linear infinite",
+        });
+        $d_wheel_l.addClass("d_wheel");
+        var $d_wheel_r=$d_wheel_l.clone();
+        $d_wheel_l.css("left","calc(50% - 64px)");
+        $d_wheel_r.css("right","calc(50% - 64px)");
+        $parent.append($d_wheel_l,$d_wheel_r)
+    }
+    else if(obj.type==3){
+        $(".d_eq").remove();
+        var $d_eq=$("<div></div>");
+        $d_eq.css({
+            background:"url("+obj.imgB+") no-repeat",top:"10px",left:"calc(50% + 20px)",
+            "background-size":"cover",position:"absolute",width:"100px",height:"100px"
+        });
+        $d_eq.addClass("d_eq");
+        $parent.append($d_eq);
     }
 }
 

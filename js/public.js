@@ -134,7 +134,7 @@ function GetData(){
                 for(var i=0;i<len;i++){
                     var equip={
                         img:results.rows.item(i).img,
-                        img2:results.rows.item(i).img2,
+                        imgB:results.rows.item(i).img_1,
                         price:results.rows.item(i).price,
                         name:results.rows.item(i).name,
                         type:results.rows.item(i).type,
@@ -142,6 +142,7 @@ function GetData(){
                         value_type:results.rows.item(i).value_type,
                         val:results.rows.item(i).value
                     };
+                    //console.log(equip);
                     arr.push(equip);
                 }
                 that.$obj.trigger(eve,[arr]);
