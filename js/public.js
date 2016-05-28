@@ -121,7 +121,7 @@ function GetData(){
                    arr.push(rider);
                }
                that.$obj.trigger(eve,[arr]);
-           },null);
+           },function(tx,e){alert("车手问题"+e.message)});
         });
         return arr;
     }
@@ -146,7 +146,7 @@ function GetData(){
                     arr.push(equip);
                 }
                 that.$obj.trigger(eve,[arr]);
-            },null);
+            },function(tx,e){alert("装备问题"+e.message)});
         });
         return arr;
     }
@@ -166,7 +166,7 @@ function GetData(){
                     arr.push(mission);
                 };
                 that.$obj.trigger(eve,[arr]);
-            },null);
+            },function(tx,e){alert("关卡问题"+e.message)});
         });
         return arr;
     };
@@ -208,7 +208,7 @@ function GetData(){
                     missions[m].lock=false;
                 }
                 that.$obj.trigger(eve,[arr]);
-            },null);
+            },function(tx,e){alert("地图问题"+e.message)});
         });
     };
     this.on=function(event,f){

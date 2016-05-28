@@ -73,7 +73,7 @@ $(function(){
             "CONSTRAINT pk_ur PRIMARY KEY ( userid, riderid ));");
         tx.executeSql("insert into user_rider(userid,riderid) values(2,2);");
         var user_rider_table="insert into user_rider(userid,riderid) values(?,?);";
-        tx.executeSql(user_rider_table,[1,1]);
+        tx.executeSql(user_rider_table,[1,2]);
         /*tx.executeSql(user_rider_table,[1,2]);
         tx.executeSql(user_rider_table,[1,3]);*/
         /*用户拥有的车子列表*/
