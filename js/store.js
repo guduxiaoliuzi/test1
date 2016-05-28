@@ -54,9 +54,6 @@ function Store(){
     $recharge.click(function(){
         var t=new TanChuang(that.$MainBody,"正在努力建设中。。。。。","img/001.gif");
     });
-    $myCar.click(function(){
-        director.runScene(new Carport());
-    });
     $left_div.append($names,$preview,$coins,$myCar,$recharge);
     /*右侧*/
     var $r_head=$("<div></div>");
@@ -232,9 +229,9 @@ function Store(){
         data.on("createlist",function(e,arr){
             that.CreateObjects(arr);
             var pages=Math.ceil(arr.length/6);
-            /*var page=new PageBar($shop,pages);
+            var page=new PageBar($shop,pages);
             page.setTo($stores);
-            page.setPageTo(0);*/
+            page.setPageTo(0);
         })
     });
     $(function(){

@@ -211,8 +211,8 @@ function GetData(){
             },function(tx,e){alert("地图问题"+e.message)});
         });
     };
-    this.on=function(event,f){
-        that.$obj.on(event,f);
+    this.on=function(event,fun){
+        that.$obj.on(event,fun);
     }
 }
 var data=new GetData();
