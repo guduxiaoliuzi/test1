@@ -25,10 +25,11 @@ $(function(){
     //director.runScene(new Carport());
     //director.runScene(new Main());
     //director.runScene(new Depot());
-    //director.runScene(new Checkpoint());
     //director.runScene(new Settlement(3,126,2));
-    director.runScene(new MapSelect());
+    //director.runScene(new MapSelect());
+    director.runScene(new SelectLevel());
     //director.runScene(new Register());
+
 });
 //var login=new Login($("#main"));
 function Director(viewPort){

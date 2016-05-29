@@ -1,6 +1,9 @@
 /**
  * Created by Administrator on 2016/5/27 0027.
  */
+$(function(){
+    User.id=1;
+});
 function Carport(){
     var that=this;
     //var try_rider
@@ -68,7 +71,7 @@ function Carport(){
         width:"160px",height:"110px",cursor:"pointer",
         position:"absolute",left:"8px"
     });
-    $man_bt.addClass("choose_btn")
+    $man_bt.addClass("choose")
     var $car_bt=$man_bt.clone();
     var $wheel_bt=$man_bt.clone();
     var $tank_bt=$man_bt.clone();
@@ -146,6 +149,7 @@ function Carport(){
          $(".choose").css({"background":"none",border:"none"});
          $(this).css({"background":"linear-gradient(#d6f9f5,#31d7c2)",border:"black solid 3px"});
          var typ=$(this).index()-2;
+        alert(typ);
          var select="select equipment.id,equipment.name,equipment.price,equipment.img,equipment.img_1,equipment.value," +
          "equipment.value_type,equipment.type from equipment inner join user_equip on equipment.id=user_equip.equipid and user_equip.userid=?";
          switch (typ){
@@ -178,7 +182,7 @@ function Carport(){
          $(".choose:eq(0)").click();
      },10);
      });
-    console.log(User.id,$riders);
+    //console.log(User.id,$riders);
 }
 
 

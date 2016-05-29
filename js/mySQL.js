@@ -109,18 +109,27 @@ $(function(){
             "conf     text," +
             "img      text);");
         var mission_table="insert into mission(name,belong,map,img) values(?,?,?,?);";
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map01.jpg"]);
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map02.jpg"]);
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map03.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map01.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map02.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map03.jpg"]);
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map01.jpg"]);
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map02.jpg"]);
-        tx.executeSql(mission_table,["沙漠",1,"match01.png","map03.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map01.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map02.jpg"]);
-        tx.executeSql(mission_table,["城市",2,"match02.png","map03.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["沙漠",1,"img/match01_stage.png","img/map01.jpg"]);
+
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map01.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map02.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map03.jpg"]);
+        tx.executeSql(mission_table,["城市",2,"img/match02_stage.png","img/map01.jpg"]);
         /*用户关卡列表*/
         tx.executeSql("create table if not exists user_mission (" +
             "userid     integer references users ( id )," +
