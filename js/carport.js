@@ -15,12 +15,12 @@ function Carport(){
         width:"291px",height:"562px", border:"black solid 3px", position:"absolute",
         "border-radius":"15px",background:"white",left:"calc(50% - 525px)",top:"calc(2% + 30px)"
     });
-    var $right_div=$("<div></div>");
-    $right_div.css({
+    var $right_cdiv=$("<div></div>");
+    $right_cdiv.css({
         width:"713px",height:"562px",border:"black solid 3px",position:"absolute",
         "border-radius":"15px",background:"white",right:"calc(50% - 500px)",top:"calc(2% + 30px)"
     });
-    this.$MainBody.append($left_div,$right_div);
+    this.$MainBody.append($left_div,$right_cdiv);
     /*左侧*/
     var $head=$("<div></div>");
     $head.css({
@@ -95,7 +95,90 @@ function Carport(){
         "background-position":"center center","background-size":"cover",left:"4px",top:"3px",overflow:"hidden"
     });
     $stores.appendTo($shop);
-    $right_div.append($r_head,$exit,$man_bt,$car_bt,$wheel_bt,$tank_bt,$shop)
+    $right_cdiv.append($r_head,$exit,$man_bt,$car_bt,$wheel_bt,$tank_bt,$shop);
+    this.CreatePort=function(Obj){
+         var objs=Obj;
+         $stores.empty();
+         for(var i=0;i<objs.length;i++){
+         var $car_div=$("<div></div>");
+         $car_div.css({
+             width:"114px",height:"88px",margin:"10px 0 0 15px",float:"left",background:"url("+objs[i].img+")"
+         });
+         var $check_img=$("<div></div>");
+         $check_img.css({
+             width:"100%",height:"100%",background:"none"
+         });
+         $check_img.appendTo($car_div);
+         $car_div.appendTo($stores);
+         $check_img.click(function(){
+             $(".check").css("background","none");
+             $(that).css("background","url(img/check.png) no-repeat center");
+             $(that).addClass("check");
+
+             var i=$(that).parent().index();
+             Driver(objs[i],$preview);
+             PortDisplay(objs[i]);
+         });
+     }
+   };
+   /*左侧显示数据参数方法*/
+     function PortDisplay(objs){
+         switch (objs.value_type){
+             case 1:
+                 e
+             }
+     };
+    if(!director.runScene(Store)){
+         var $go=$("<div></div>");
+         $go.css({
+             width:"128px",height:"84px",background:"url(img/go.png)",position:"absolute",bottom:"0px",cursor:"pointer"
+         });
+        $go.appendTo($left_div);
+   }
+   /* $man_bt.on("click",function(){
+     $(that).css({
+
+     });
+  });*/
+     var selecta="select riders.id,riders.r_name,riders.price,riders.img_1,riders.img_2 from riders inner join user_rider on riders.id=user_rider.riderid and user_rider.userid=?";
+    var $riders=data.riderData(selecta,[User.id]);
+    $right_cdiv.on("click","[class='choose']",function(){
+         $(".choose").css({"background":"none",border:"none"});
+         $(this).css({"background":"linear-gradient(#d6f9f5,#31d7c2)",border:"black solid 3px"});
+         var typ=$(this).index()-2;
+         var select="select equipment.id,equipment.name,equipment.price,equipment.img,equipment.img_1,equipment.value," +
+         "equipment.value_type,equipment.type from equipment inner join user_equip on equipment.id=user_equip.equipid and user_equip.userid=?";
+         switch (typ){
+             case 0:
+                 select="select riders.id,riders.r_name,riders.price,riders.img_1,riders.img_2 from riders inner join" +
+                 "user_rider on riders.id=user_rider.riderid and user_rider.userid=?";
+                 data.riderData(select,[User.id],"createPort");
+             case 1:
+                 data.equipData(select,[User.id],"createPort");
+                 break;
+             case 2:
+                 data.equipData(select,[User.id],"createPort");
+                 break;
+             case 3:
+                 data.equipData(select,[User.id],"createPort");
+                 break;
+             };
+         data.on("createPort",function(e,arr){
+             that.CreatePort(arr);
+             var pages=Math.ceil(arr.length/6);
+             /*var page=new PageBar($shop,pages);
+               page.setTo($stores);
+               page.setPageTo(0);*/
+             })
+     });
+    $(function(){
+     //User.id=1;
+     //getUser();
+     setTimeout(function(){
+         $(".choose:eq(0)").click();
+     },10);
+     });
+    console.log(User.id,$riders);
 }
 
 

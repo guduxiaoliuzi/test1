@@ -8,7 +8,7 @@ function Store(){
         width:"100%", height:"100%","background-size":"cover", "background-repeat":"no-repeat",
         "background-image":"url(img/LGbg.jpg)","background-position":"center center",position:"absolute"
     });
-    this.$MainBody.appendTo(that.$MainBody.view);
+    this.$MainBody.appendTo(that.$MainBody);
     var $left_div=$("<div></div>");
     $left_div.css({
         width:"291px",height:"562px", border:"black solid 3px", position:"absolute",
@@ -230,8 +230,8 @@ function Store(){
             that.CreateObjects(arr);
             var pages=Math.ceil(arr.length/6);
             var page=new PageBar($shop,pages);
-            page.setTo($stores);
-            page.setPageTo(0);
+            //page.setTo($stores);
+            //page.setPageTo(0);
         })
     });
     $(function(){
