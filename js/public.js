@@ -142,7 +142,7 @@ function GetData(){
                         value_type:results.rows.item(i).value_type,
                         val:results.rows.item(i).value
                     };
-                    console.log(equip);
+                    //console.log(equip);
                     arr.push(equip);
                 }
                 that.$obj.trigger(eve,[arr]);

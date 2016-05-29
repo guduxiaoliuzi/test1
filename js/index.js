@@ -22,11 +22,11 @@ $(function(){
     //director.runScene(new Login());
     //director.runScene(new Loading());
     //director.runScene(new Store());
-    //director.runScene(new Carport());
+    director.runScene(new Carport());
     //director.runScene(new Main());
     //director.runScene(new Depot());
     //director.runScene(new Settlement(3,126,2));
-    director.runScene(new MapSelect());
+    //director.runScene(new MapSelect());
     //director.runScene(new SelectLevel());
     //director.runScene(new Register());
     //director.runScene(new Games());
