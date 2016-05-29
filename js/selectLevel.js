@@ -4,6 +4,13 @@
 $(function(){
     User.id=1;
 });
+var Missioni={
+    id:6,
+    map:'map01',
+    blong:1,
+    sta:1,
+    degree:2
+};
 function SelectLevel(){
     var that=this;
     this.$MainBody=$("<div></div>");
@@ -40,10 +47,11 @@ function SelectLevel(){
         }
     };
     $bg.on("click","[type=unlock]",function(){
-       Missioni=that.obj;
-        //Missioni.degree=that.obj.level;
-        //Missioni.sta=$(that).index()+1;
-        //Missioni.blong=matchi;
+        Missioni=that.obj;
+        console.log(that.obj);
+        Missioni.degree=that.obj.level;
+        Missioni.sta=$(that).index()+1;
+        Missioni.blong=matchi;
         director.runScene(new Carport());
     });
     $black.click(function(){
@@ -69,7 +77,7 @@ function SelectLevel(){
     /*–«–«µƒ…Ë÷√*/
     function setStarLvel(lev,$parent){
         var $bgdiv=$("<div></div>");
-        lev=2;
+        //lev=2;
         if(lev){
             $bgdiv.css({
                 width: "96%",height: 27,"background-color": "rgba(0,0,0,0.7)","margin-top":43,"text-align": "center"

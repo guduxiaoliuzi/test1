@@ -142,7 +142,7 @@ function GetData(){
                         value_type:results.rows.item(i).value_type,
                         val:results.rows.item(i).value
                     };
-                    //console.log(equip);
+                    console.log(equip);
                     arr.push(equip);
                 }
                 that.$obj.trigger(eve,[arr]);
@@ -216,4 +216,26 @@ function GetData(){
     }
 }
 var data=new GetData();
+function getRandom(min,max){//获取随机数
+    var a=parseInt(Math.random()*(max-min+1));
+    a=min+a;
+    return a;
+}
+function randomArr(min,max){//随机数组
+    var arr=[];
+    for(var i=0;i<(max-min+1);i++){
+        arr[i]=min+i
+    }
+    arr.sort(function(){
+        return 0.5 - Math.random();
+    });
+    return arr;
+}
+function FinishBox($parent){
+    var $div=$('<div class="finishbox"></div>');
+    $parent.append($div);
+    this.show=function(){
+        $div.css('left','50%');
+    };
+};
 

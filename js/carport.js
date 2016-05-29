@@ -6,7 +6,6 @@ $(function(){
 });
 function Carport(){
     var that=this;
-    //var try_rider
     this.$MainBody=$("<div></div>");
     this.$MainBody.css({
         width:"100%", height:"100%","background-size":"cover", "background-repeat":"no-repeat",
@@ -39,7 +38,7 @@ function Carport(){
     $preview.css({
         width:"257px",height:"267px",background:"url(img/preview-bg.png) no-repeat",position:"relative",left:"18px",top:"43px"
     });
-    var $Yspeed=$("<div>越野</div>");
+    var $Yspeed=$("<div></div>");
     $Yspeed.css({
         margin:"70px 0 0 30px","font-size":"25px",color:"white",
         "text-shadow":"#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0"
@@ -125,10 +124,35 @@ function Carport(){
      }
    };
    /*左侧显示数据参数方法*/
+    var equiped=[false,false,false,false]//已选取的装备;
+    var actor={
+        maxspeed:0,xspeed:0,yspeed:0,
+        Rimg:null,Mimg:null,Wimg:null,RimgB:null
+    }
      function PortDisplay(objs){
          switch (objs.value_type){
              case 1:
-                 e
+                 equiped[1]=true;
+                 actor.maxspeed=objs.val();
+                 actor.Mimg=objs.img;
+                 $Yspeed.html("最大速度:"+objs.val);
+                 break;
+             case 2:
+                 equiped[2]=true;
+                 actor.yspeed=objs.val();
+                 actor.Wimg=objs.img;
+                 $dspeed.html("Y轴速度:"+objs.val);
+                 break;
+             case 3:
+                 equiped[3]=true;
+                 actor.xspeed=objs.val();
+                 $sspeed.html("加速度:"+objs.val);
+                 break;
+             default :
+                 actor.Rimg=objs.img2;
+                 actor.RimgB=objs.img;
+                 equiped[0]=true;
+                 break;
              }
      };
     if(!director.runScene(Store)){
@@ -137,6 +161,9 @@ function Carport(){
              width:"128px",height:"84px",background:"url(img/go.png)",position:"absolute",bottom:"0px",cursor:"pointer"
          });
         $go.appendTo($left_div);
+        $go.click(function(){
+           director.runScene(new Games(actor))
+        });
    }
    /* $man_bt.on("click",function(){
      $(that).css({
@@ -149,7 +176,7 @@ function Carport(){
          $(".choose").css({"background":"none",border:"none"});
          $(this).css({"background":"linear-gradient(#d6f9f5,#31d7c2)",border:"black solid 3px"});
          var typ=$(this).index()-2;
-        alert(typ);
+        //alert(typ);
          var select="select equipment.id,equipment.name,equipment.price,equipment.img,equipment.img_1,equipment.value," +
          "equipment.value_type,equipment.type from equipment inner join user_equip on equipment.id=user_equip.equipid and user_equip.userid=?";
          switch (typ){
@@ -169,8 +196,8 @@ function Carport(){
              };
          data.on("createPort",function(e,arr){
              that.CreatePort(arr);
-             var pages=Math.ceil(arr.length/6);
-             /*var page=new PageBar($shop,pages);
+             /*var pages=Math.ceil(arr.length/6);
+             var page=new PageBar($shop,pages);
                page.setTo($stores);
                page.setPageTo(0);*/
              })

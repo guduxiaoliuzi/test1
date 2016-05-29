@@ -51,6 +51,9 @@ function Store(){
     $recharge.css({
         bottom:"20px","background-image":"url(img/chongzhi.jpg)"
     });
+    $myCar.click(function(){
+        director.runScene(new Carport());
+    })
     $recharge.click(function(){
         var t=new TanChuang(that.$MainBody,"正在努力建设中。。。。。","img/001.gif");
     });
@@ -228,8 +231,8 @@ function Store(){
         };
         data.on("createlist",function(e,arr){
             that.CreateObjects(arr);
-            var pages=Math.ceil(arr.length/6);
-            var page=new PageBar($shop,pages);
+            //var pages=Math.ceil(arr.length/6);
+            //var page=new PageBar($shop,pages);
             //page.setTo($stores);
             //page.setPageTo(0);
         })

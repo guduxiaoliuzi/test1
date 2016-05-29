@@ -26,9 +26,10 @@ $(function(){
     //director.runScene(new Main());
     //director.runScene(new Depot());
     //director.runScene(new Settlement(3,126,2));
-    //director.runScene(new MapSelect());
-    director.runScene(new SelectLevel());
+    director.runScene(new MapSelect());
+    //director.runScene(new SelectLevel());
     //director.runScene(new Register());
+    //director.runScene(new Games());
 
 });
 //var login=new Login($("#main"));

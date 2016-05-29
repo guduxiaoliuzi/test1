@@ -30,9 +30,9 @@ function Main(){
     $one.css({left:"calc(50% - 550px)",background:"url(img/onebtn.png)"});
     $more.css({left:"calc(50% - 131px)",background:"url(img/morebtn.png)"});
     $shop.css({right:"calc(50% - 550px)",background:"url(img/mallbtn.png)"});
-/*    $one.click(function(){
+    $one.click(function(){
         director.runScene(new MapSelect());
-    });*/
+    });
     $more.click(function(){
         var tc=new TanChuang(that.$MainBody,"正在努力建设中。。。。。","img/001.gif");
     });
